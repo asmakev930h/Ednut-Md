@@ -13,13 +13,13 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/Ednut001/Ednut-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaZAY2P4yltOvNaegY2w";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaZAY2P4yltOvNaegY2w";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d29baa62079de1f3e9ba7.jpg,https://telegra.ph/file/7aa0025c70b7b5040d3d0.jpg,https://telegra.ph/file/06265ce5a7956b4799ba0.jpg,";
+global.github = process.env.GITHUB || "";
+global.gurl = process.env.GURL || "";
+global.website = process.env.GURL || "";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "";
 global.devs = "2348102487241";
-global.sudo = process.env.SUDO || "237680255347";
-global.owner = process.env.OWNER_NUMBER || "2348102487241";
+global.sudo = process.env.SUDO || "2347041039367";
+global.owner = process.env.OWNER_NUMBER || "2347041039367";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -28,7 +28,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/d29baa62079de1f3e9ba7.jpg,https://telegra.ph/file/7aa0025c70b7b5040d3d0.jpg,https://telegra.ph/file/06265ce5a7956b4799ba0.jpg,";
-global.waPresence = process.env.WAPRESENCE || "recording";//online,recording,composing,available,unavailable
+global.waPresence = process.env.WAPRESENCE || "available";//online,recording,composing,available,unavailable
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || '.',
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©Ednut-Md",
+  caption: process.env.CAPTION || "©COBRA-Md",
   author: process.env.PACK_AUTHER || "🕊",
-  packname: process.env.PACK_NAME || "Ednut-Md",
-  botname: process.env.BOT_NAME || "Ednut-Md",
-  ownername: process.env.OWNER_NAME || "Ednut",
+  packname: process.env.PACK_NAME || "COBRA-Md",
+  botname: process.env.BOT_NAME || "COBRA-md",
+  ownername: process.env.OWNER_NAME || "COBRA",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
